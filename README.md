@@ -6,4 +6,7 @@ This repository contains the following Jupyter notebooks written in Python:
 * **Create Phase Portraits:** solves user-defined planar autonomous ODEs interactively (mouse clicks define initial conditions);
 * **Explore Numerical Methods:** illustrates the accuracy of several numerical methods and explores their order.
 
-These notebooks run on a JupyterLab (which can be installed using, for instance, [Anaconda](https://www.anaconda.com)) with a Python 3 kernel. The notebooks require the modules ipywidgets, math, matplotlib, numpy, and scipy. If IPython is used, replace `%matplotlib widget` with `%matplotlib notebook` in each notebook.
+If you would like to run these notebooks in your webbrowser using Binder, click on the badge below. It may take time for Binder to start the Jupyterlab, and the notebooks may also run significantly slower than when ran locally.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sandstede-lab-teaching/Solving_ODEs.git/main?urlpath=lab)
+
+Alternatively, install a JupyterLab with a Python 3 kernel locally using, for instance, [Anaconda](https://www.anaconda.com)). If the command `%matplotlib widget` results in an error, replace it with `%matplotlib notebook`.
