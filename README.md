@@ -6,4 +6,4 @@ This repository contains the following Jupyter notebooks written in Python:
 * Create Phase Portraits: solves user-defined planar autonomous ODEs interactively (mouse clicks define initial conditions);
 * Explore Numerical Methods: illustrates the accuracy of several numerical methods and explores their order.
 
-These notebooks require ipywidgets, math, matplotlib, numpy, and scipy.
+These notebooks run on a JupyterLab (which can be installed using, for instance, [Anaconda](https://www.anaconda.com)) with a Python 3 kernel. The notebooks require the modules ipywidgets, math, matplotlib, numpy, and scipy. If IPython is used, replace `%matplotlib widget` with `%matplotlib notebook` in each notebook.
